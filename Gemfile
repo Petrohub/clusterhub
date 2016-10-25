@@ -16,13 +16,14 @@ ruby '2.3.0'
     gem 'simple_form'
     gem 'rails_12factor', group: :production
     gem 'sorcery', '~> 0.9.0'
+    gem 'nokogiri'
     gem 'twilio-ruby'
     gem 'slack-ruby-client'
 
 group :development, :test do
     gem 'factory_girl_rails'
     gem 'rspec-rails', '~> 3.0'
-    gem 'capybara'
+  #  gem 'capybara'
     gem 'byebug'
     gem 'figaro'
 end
